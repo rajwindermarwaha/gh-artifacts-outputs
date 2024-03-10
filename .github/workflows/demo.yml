@@ -42,7 +42,7 @@ jobs:
       - name: Get Artifact
         uses: actions/download-artifact@v3
         with:
-          name: dist-files
+          name: dist-file
       - name: Optput Contents
         run: ls
       - name: Deploy
